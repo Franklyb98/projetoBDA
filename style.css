@@ -22,7 +22,7 @@ header{
 }
 
 .chamando-txt{
-    margin-right: 5%;
+    margin-right: 3%;
     font-family: "Chakra Petch", sans-serif;
 }
 
@@ -82,4 +82,50 @@ footer{
     display: flex;
     overflow-x:auto ;
     gap: 10px;
+}
+ 
+iframe{
+    width: 300px;
+    }
+
+
+
+@media screen and (max-width:1029.33px){
+    
+
+    header{
+        padding-left: 3px;
+
+    }
+
+    .chamando-txt h1  {
+        font-size: 17px;
+        text-align: center;
+        
+
+         
+    }
+
+    .videoPrinci{
+           display: flex;
+        justify-content: center;
+   }
+
+   .videoPrinci iframe{
+
+    max-width: 100%;
+        height: auto;
+        width: 300px;
+        padding-right: 10px;
+   }
+
+    .subvideo  img{
+        height: 100px;
+    }
+
+   .videos img{
+    height: 100px;
+   }
+
+    
 }
